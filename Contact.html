@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel NZ</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="A website designed to show what 
+    tours Travel NZ offers.">
+    <meta name="keywords" content="new zealand, tours, sight seeing, 
+    travel, tourise, hike, day trip">
+    <style> 
+        header {
+          background-image: url("https://kristieaw.github.io/hosted-assets/header_background.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-color: #cccccc;
+        }
+        </style>
+</head>
+<header>
+    <img src="images/logo.jpg" alt=logo style=float:right;width:250px>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="2Tours.html">Tours</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        </nav>
+  </header>
+  <body>
+    <artical> 
+        <div class="contact_info">
+        <img class="contact_image" src="images/helicopter.jpg" alt="Image3" style=height:30%;border:1px;border-radius:10px;/>
+        <p>
+        Phone: 0800 TRAVEL  or  0800 872 835  
+        <br>
+        Email: Customerservice@travelNZ.co.nz
+        <br>
+        Address: 42 Wallaby Way, Auckland
+        <br>
+        <a href="https://www.facebook.com/groups/newzealandtraveltips/" target="_blank">Click here to find us on facebook</a>
+        <br>
+        <a href="https://www.instagram.com/travelnewzealandwithme/?hl=en" target="_blank">Click here to check out our Instagram</a>
+        </p>
+        </div>
+    </contact_info>
+    </article>
+  </body>
+  <footer>
+    <!-- footer content goes in here -->
+    <form action="/action_page.php"></form>
+        <div id="radiocontainer" name="radiocontainer" class="radioOptions">
+          <label for="subject">Subject:</label>
+
+          <div id="Review" class="floatBlock">
+            <label for="Review">Review</label>
+            <input type="radio" id="Reviews" name="Reviews" value="Reviews">
+          </div>
+
+          <div id="Book" class="floatBlock">
+            <label for="Book">Book</label>
+            <input type="radio" id="Booking" name="Booking" value="Booking">
+          </div>
+          
+          <div id="Enquire" class="floatBlock">
+            <label for="Enquire">Enquire</label>
+            <input type="radio" id="Enquiring" name="Enquiring" value="Enquiring">
+          </div>
+        </div>
+        
+          <div class="container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="wholename" placeholder="Firstname & Lastname.." required>
+                <br>
+                <label for="tour">Tour:</label>
+                <input type="text" id="tour" name="tour" placeholder="Eg. Bay of Plenty Wine Trail..">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Eg. enquires@travelnz.co.nz" required>
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" id="Date" name="date">
+                <br>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Please add extra details or info here.." style="height:200px">
+                </textarea>
+
+                <input type="submit" value="submit">
+          </div>
+    </form>
+</footer>
+</html>
